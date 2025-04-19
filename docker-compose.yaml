@@ -1,0 +1,29 @@
+name: MinecraftServer
+
+services:
+  server:
+    container_name: server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 25565:25565
+    volumes:
+      - ./server/world:/minecraft/world
+      - ./server/mods:/minecraft/mods
+      - ./server/server.properties:/minecraft/server.properties
+    environment:
+      JAVA_OPTS: "-Xmx4G -Xms1G -XX:SoftMaxHeapSize=3G -XX:+UnlockExperimentalVMOptions -XX:+UseZGC"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 8GB
+        reservations:
+          cpus: '0.25'
+          memory: 5GB
+    network_mode: host
+
+volumes:
+  server:
