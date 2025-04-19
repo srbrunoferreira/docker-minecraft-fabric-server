@@ -1,13 +1,47 @@
-docker stop fabric-mc && docker rm fabric-mc && docker build -t fabric-server . && docker run -d -p 25565:25565 --name fabric-mc fabric-server
-docker exec -it fabric-mc bash
-docker start 61a8b7c109b76b0796c4cd729ee72d4902c5825409f7f20a8bba12b5499d4227
+# Minecraft - Docker environment for Fabric Server
 
-java -Xmx2G -jar fabric-server-mc.1.21.5-loader.0.16.13-launcher.1.0.3.jar nogui
+## Commands Summary
 
-# CMD ["java", "-Xmx2G", "-jar", "fabric-server-mc.1.21.5-loader.0.16.13-launcher.1.0.3.jar", "nogui"]
+- Run container
 
-The only problem now is:
+```bash
+docker compose up --build -d
+```
 
-I am running a Minecraft Fabric Server container an I can access it from my host Windows by using localhost as server IP on Minecraft client.
+- Run fabric server
 
-However, my friends connected to our Hamachi cannot access the server.
+```bash
+docker exec -it minecraft-server bash # Enter inside the container
+java -Xmx2G -jar fabric-server-mc.1.21.5-loader.0.16.13-launcher.1.0.3.jar nogui # Run fabric server
+```
+
+By running `java -Xmx2G -jar fabric-server-mc.1.21.5-loader.0.16.13-launcher.1.0.3.jar nogui` it you can still type commands as you were in the console of the fabric server.
+
+## Allowing Access to the Fabric Server from the internet
+
+Source: https://jwstanly.com/blog/article/Port+Forwarding+WSL+2+to+Your+LAN/
+
+**find out WSL IP**
+
+```bash
+wsl hostname -I
+```
+
+**Route from Windows to WSL**
+
+```bash
+netsh interface portproxy add v4tov4 listenport=25565 listenaddress=0.0.0.0 connectport=25565 connectaddress=172.23.18.19
+```
+
+**Add inbound rule to Windows Firewall**
+
+```bash
+New-NetFirewallRule -DisplayName "WSL2 Port Bridge for Minecraft Fabric Server" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 25565
+```
+
+**Show forwarding ports**
+
+
+```bash
+netsh interface portproxy show v4tov4
+```
