@@ -1,16 +1,12 @@
-FROM openjdk:21-jdk-slim-bookworm
+FROM debian:bookworm-20250407-slim
+
+LABEL maintainer="srbrunoferreira@outlook.com" \
+	version="1.0.0" \
+	description="Simple Minecraft Fabric Server on Debian Bookworm with JRE 21 headless"
+
+COPY OpenJDK21U-jre_x64_linux_hotspot_21.0.7_6.tar.gz /tmp/
+
+RUN apt-get update && apt-get install -y tar && \
+	tar -xzf /tmp/OpenJDK21U-jre_x64_linux_hotspot_21.0.7_6.tar.gz -C /opt
 
 WORKDIR /server
-
-RUN apt-get update && apt-get install -y curl && \
-	curl -OJ https://meta.fabricmc.net/v2/versions/loader/1.21.5/0.16.13/1.0.3/server/jar
-
-RUN echo "eula=true" > eula.txt
-
-EXPOSE 25565
-
-COPY ./server/server.properties /server/
-COPY ./server/mods/ /server/mods/
-COPY ./server/world/ /server/world/
-
-CMD ["tail", "-f", "/dev/null"]

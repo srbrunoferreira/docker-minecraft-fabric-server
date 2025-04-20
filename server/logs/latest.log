@@ -1,0 +1,200 @@
+[16:49:56] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[16:49:56] [main/INFO]: Loading 46 mods:
+	- fabric-api 0.120.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.6.7+3e6c1f7d49
+	   |-- fabric-data-generation-api-v1 22.3.4+3e6c1f7d49
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.1.0+45c7c84849
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.0+ab7a462349
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.1+3e6c1f7d49
+	   |-- fabric-renderer-indigo 3.0.2+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+081cc04349
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- java 21
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+	- skinrestorer 2.3.0+1.21.5-fabric
+	   \-- org_mineskin_java-client 3.0.1-SNAPSHOT
+	- xaerominimap 25.2.0
+[16:49:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/server/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:49:56] [main/INFO]: Compatibility level set to JAVA_21
+[16:49:56] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[16:49:57] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:50:02] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16:50:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:50:03] [main/INFO]: Loaded 1373 recipes
+[16:50:03] [main/INFO]: Loaded 1484 advancements
+[16:50:04] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.148 ms
+[16:50:04] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[16:50:04] [Server thread/INFO]: Loading properties
+[16:50:04] [Server thread/INFO]: Default game type: SURVIVAL
+[16:50:04] [Server thread/INFO]: Generating keypair
+[16:50:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:38246
+[16:50:04] [Server thread/INFO]: Using epoll channel type
+[16:50:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:50:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:50:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:50:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:50:04] [Server thread/INFO]: Preparing level "BrunoAndCecilia"
+[16:50:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:50:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:50:06] [Server thread/INFO]: Time elapsed: 2106 ms
+[16:50:06] [Server thread/INFO]: Done (2.457s)! For help, type "help"
+[16:50:06] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16:50:23] [Server thread/INFO]: BrunusSmith[/172.18.0.1:42304] logged in with entity id 3 at (419.62189632896025, 147.34318067352683, -370.86866088307903)
+[16:50:23] [Server thread/INFO]: BrunusSmith joined the game
+[16:50:30] [Server thread/WARN]: BrunusSmith moved too quickly! 3.8326995804304147,3.734998555013675,-9.119133047287278
+[16:50:42] [Server thread/WARN]: BrunusSmith moved too quickly! -0.10690153164500771,-3.750000074850334,-10.009114918446926
+[16:50:46] [Server thread/WARN]: BrunusSmith moved too quickly! -2.851478504016484,-3.3750001341104223,-9.003079614081571
+[16:50:52] [Server thread/WARN]: BrunusSmith moved too quickly! 5.951054043686213,0.0,8.532322612396342
+[16:50:54] [Server thread/WARN]: BrunusSmith moved too quickly! 6.316162364927777,0.0,8.217009696874925
+[16:50:55] [Server thread/WARN]: BrunusSmith moved too quickly! 5.988168754657011,0.0,8.531499445465215
+[16:50:58] [Server thread/WARN]: BrunusSmith moved too quickly! 5.8636723579845125,0.0,8.868635551226077
+[16:51:24] [Server thread/WARN]: BrunusSmith moved too quickly! 7.141598708183665,0.06723128380838261,7.849876926571255
+[16:51:29] [Server thread/WARN]: BrunusSmith moved too quickly! -5.711295576879422,0.0,8.924151743689436
+[16:51:34] [Server thread/WARN]: BrunusSmith moved too quickly! -0.47533671274732114,0.0,10.904150194741021
+[16:51:39] [Server thread/WARN]: BrunusSmith moved too quickly! -4.137960129164128,0.0,-9.208740378612333
+[16:51:41] [Server thread/WARN]: BrunusSmith moved too quickly! -6.788463230055072,0.0,-7.933300669673315
+[16:51:42] [Server thread/WARN]: BrunusSmith moved too quickly! -9.084007212814129,0.0,-5.103689098611483
+[16:51:51] [Server thread/WARN]: BrunusSmith moved too quickly! -1.353799049657539,0.0,-10.826173288969073
+[16:52:03] [Server thread/WARN]: BrunusSmith moved too quickly! -9.478754412695508,0.0,5.354756992035391
+[16:52:05] [Server thread/WARN]: BrunusSmith moved too quickly! -9.092737592536906,0.0,5.1555793147803115
+[16:52:06] [Server thread/WARN]: BrunusSmith moved too quickly! -9.156394751649742,0.0,4.227603069614418
+[16:52:08] [Server thread/WARN]: BrunusSmith moved too quickly! -10.015669405385978,0.0,3.526862498832884
+[16:52:15] [Server thread/WARN]: BrunusSmith moved too quickly! -8.972690981634983,3.3749662030517413,3.171780316201165
+[16:52:23] [Server thread/WARN]: BrunusSmith moved too quickly! 8.602924596577417,0.0,5.756592792661365
+[16:52:24] [Server thread/WARN]: BrunusSmith moved too quickly! 9.67624604296217,0.0,3.6883389836300466
+[16:52:59] [Server thread/WARN]: BrunusSmith moved too quickly! 7.386303157607472,3.750000149011612,-7.163361874350386
+[16:53:11] [Server thread/WARN]: BrunusSmith moved too quickly! -0.487897105183535,0.0,10.207738094922831
+[16:53:16] [Server thread/WARN]: BrunusSmith moved too quickly! 7.579240553935648,0.0,7.381818991659031
+[16:54:31] [Server thread/WARN]: BrunusSmith moved too quickly! -3.790327749360472,2.513935322732209,-9.66574031701009
+[16:54:33] [Server thread/WARN]: BrunusSmith moved too quickly! -9.936986017268282,0.0,-1.932230768136435
+[16:54:35] [Server thread/WARN]: BrunusSmith moved too quickly! -1.4885931153522733,0.0,-10.160874502749266
+[16:56:36] [Server thread/WARN]: BrunusSmith moved too quickly! 2.413519804290331,0.0,-10.482394342814246
+[16:56:42] [Server thread/WARN]: BrunusSmith moved too quickly! 10.714674693115626,0.0,0.5173526958444086
+[16:56:49] [Server thread/WARN]: BrunusSmith moved too quickly! 9.98888174547426,0.0,-3.9291977125409403
+[16:56:52] [Server thread/WARN]: BrunusSmith moved too quickly! 10.511573405367699,0.0,-1.3459819916099036
+[16:56:56] [Server thread/WARN]: BrunusSmith moved too quickly! 7.422323393069064,0.0,-6.876720824712322
+[16:57:02] [Server thread/WARN]: BrunusSmith moved too quickly! 6.955482153941489,3.3750001341104507,-6.834435505834108
+[16:57:06] [Server thread/WARN]: BrunusSmith moved too quickly! 7.527365957423285,3.3750001329276245,-6.213977816757222
+[16:57:14] [Server thread/WARN]: BrunusSmith moved too quickly! 3.073302290806623,0.0,-9.607130939391311
+[16:57:16] [Server thread/WARN]: BrunusSmith moved too quickly! 4.523296008681086,0.0,-9.455629345330635
+[16:57:31] [Server thread/WARN]: BrunusSmith moved too quickly! -9.599759002372593,0.0,2.823756369318403
+[16:57:35] [Server thread/WARN]: BrunusSmith moved too quickly! -2.2909523000978425,3.7497372691510122,9.882624673786268
+[16:57:41] [Server thread/INFO]: [BrunusSmith: Set the weather to clear]
+[16:57:47] [Server thread/INFO]: [BrunusSmith: Set the time to 1000]
+[16:57:51] [Server thread/WARN]: BrunusSmith moved too quickly! -8.784449419612201,0.0,6.399640538755079
+[16:57:53] [Server thread/WARN]: BrunusSmith moved too quickly! -7.857214407743072,0.0,6.255584344556155
+[16:57:57] [Server thread/WARN]: BrunusSmith moved too quickly! -8.749546861321505,0.0,5.882323996263267
+[16:58:01] [Server thread/WARN]: BrunusSmith moved too quickly! -8.656911858336002,0.0,6.341120241286944
+[16:58:06] [Server thread/WARN]: BrunusSmith moved too quickly! -5.23961879682372,0.0,8.725202603067743
+[16:58:08] [Server thread/WARN]: BrunusSmith moved too quickly! -1.9777915012695075,0.0,10.521759675312751
+[16:58:11] [Server thread/WARN]: BrunusSmith moved too quickly! -8.89191650899204,0.0,5.049274654801394
+[16:58:13] [Server thread/WARN]: BrunusSmith moved too quickly! -10.82393602748175,0.0,-2.034592059317532
+[16:58:16] [Server thread/WARN]: BrunusSmith moved too quickly! -10.803043711772943,0.0,-2.0306648982982267
+[16:58:17] [Server thread/WARN]: BrunusSmith moved too quickly! -10.27956147066493,0.0,-1.9322651287276358
+[16:58:21] [Server thread/WARN]: BrunusSmith moved too quickly! -10.47914701370155,0.0,0.8217982454360993
+[16:58:29] [Server thread/WARN]: BrunusSmith moved too quickly! -5.117347017158693,-3.3750001341104507,-8.179910434474408
+[17:00:18] [Server thread/WARN]: BrunusSmith moved too quickly! 10.20189972223838,0.0,0.04836422906794269
+[17:00:30] [Server thread/WARN]: BrunusSmith moved too quickly! 6.967520350041752,3.7494276550926884,-6.277271262465149
+[17:00:31] [Server thread/WARN]: BrunusSmith moved too quickly! 9.73001396133958,0.0,-3.6680721896064483
+[17:03:43] [Server thread/WARN]: BrunusSmith moved too quickly! -10.019756621524152,0.0,-2.680179230752742
+[17:03:48] [Server thread/WARN]: BrunusSmith moved too quickly! -10.298480815205949,0.0,3.215632697355886
+[17:03:52] [Server thread/WARN]: BrunusSmith moved too quickly! 10.14561349995688,3.750000149009992,0.5797906031758089
+[17:04:05] [Server thread/WARN]: BrunusSmith moved too quickly! -10.78678049283343,0.0,-0.22075144579599737
+[17:04:08] [Server thread/WARN]: BrunusSmith moved too quickly! -10.111409399785884,0.0,1.6342557850054504
+[17:04:10] [Server thread/WARN]: BrunusSmith moved too quickly! -8.54353841762429,0.0,5.581946341873504
+[17:04:13] [Server thread/WARN]: BrunusSmith moved too quickly! -10.173749737672324,0.0,1.6232567659397432
+[17:04:15] [Server thread/WARN]: BrunusSmith moved too quickly! -10.557239120177883,0.0,-0.24802546504332668
+[17:04:19] [Server thread/WARN]: BrunusSmith moved too quickly! -8.078785606589747,0.0,7.408383897080341
+[17:04:24] [Server thread/WARN]: BrunusSmith moved too quickly! -7.234701504633378,-3.374999928942316,6.9025689240781105
+[17:04:26] [Server thread/WARN]: BrunusSmith moved too quickly! -7.471948616424321,-3.7499957336394516,7.12892443302718
+[17:04:32] [Server thread/WARN]: BrunusSmith moved too quickly! -6.76424236974065,0.0,8.263582631839455
+[17:04:34] [Server thread/WARN]: BrunusSmith moved too quickly! -8.826724811108498,0.0,5.161104824671895
+[17:04:52] [Server thread/WARN]: BrunusSmith moved too quickly! 10.111249299900058,0.06723129866398381,-1.4236597496236527
+[17:04:59] [Server thread/WARN]: BrunusSmith moved too quickly! 10.204483126233157,0.0,3.1477488366913526
+[17:05:11] [Server thread/WARN]: BrunusSmith moved too quickly! 9.013720225193424,0.0,-5.451654159647866
+[17:05:18] [Server thread/WARN]: BrunusSmith moved too quickly! 5.999654774906105,0.0,-8.587472061960781
+[17:05:31] [Server thread/WARN]: BrunusSmith moved too quickly! -0.9783666191613634,0.0,10.843221988301092
+[17:05:33] [Server thread/WARN]: BrunusSmith moved too quickly! -0.44047398525452763,0.0,10.521520947186037
+[17:05:43] [Server thread/WARN]: BrunusSmith moved too quickly! -0.10016049311769848,3.3745637779025515,9.755793049070803
+[17:05:46] [Server thread/WARN]: BrunusSmith moved too quickly! -5.674608516075125,0.0,9.186712780249877
+[17:05:49] [Server thread/WARN]: BrunusSmith moved too quickly! -5.854318124978164,0.0,8.955816314246363
+[17:05:59] [Server thread/WARN]: BrunusSmith moved too quickly! -3.8960683176991893,3.3750001340525557,8.748043128198958
+[17:06:13] [Server thread/WARN]: BrunusSmith moved too quickly! 2.653168978563656,0.0,10.042928129445613
+[17:06:40] [Server thread/INFO]: [BrunusSmith: Teleported BrunusSmith to 0.500000, 186.394410, 0.500000]
+[17:06:59] [Server thread/INFO]: [BrunusSmith: Set the time to 1000]
+[17:07:36] [Server thread/INFO]: [BrunusSmith: Set own game mode to Survival Mode]
+[17:12:54] [Server thread/INFO]: [BrunusSmith: Set own game mode to Spectator Mode]
+[17:12:57] [Server thread/WARN]: BrunusSmith moved too quickly! -10.180625559929638,2.0467536813279708,2.1974953776274333
+[17:13:11] [Server thread/WARN]: BrunusSmith moved too quickly! 9.08465523444886,-2.0782464825821023,-5.289148698521103
+[17:13:32] [Server thread/WARN]: BrunusSmith moved too quickly! -5.539357776854672,4.109310890764959,-7.331459751536897
+[17:13:46] [Server thread/WARN]: BrunusSmith moved too quickly! 10.257818848736804,0.39000001549720764,1.5374403113156632
+[17:14:38] [Server thread/INFO]: [BrunusSmith: Set own game mode to Creative Mode]
+[17:16:47] [Server thread/INFO]: [BrunusSmith: Set the time to 1000]
+[17:24:23] [Server thread/WARN]: BrunusSmith moved too quickly! 8.502700275218046,-3.7499878840888528,5.270161859415623
+[17:24:24] [Server thread/WARN]: BrunusSmith moved too quickly! 5.659962475897146,-3.7499055122617904,7.751605462615061
+[17:26:46] [Server thread/INFO]: [BrunusSmith: Set the time to 1000]
+[17:31:07] [Server thread/WARN]: BrunusSmith moved too quickly! -6.691390495800761,-3.9112561541667787,-7.036866107176138
+[17:35:50] [Server thread/WARN]: BrunusSmith moved too quickly! 8.022653043077696,2.7396001088619357,5.450730875513216
+[17:36:00] [Server thread/WARN]: BrunusSmith moved too quickly! 9.625113279708614,0.0,-3.5193604403331165
+[17:36:04] [Server thread/INFO]: [BrunusSmith: Set the time to 1000]
+[17:44:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[17:44:38] [Server thread/INFO]: stop<--[HERE]
+[17:44:40] [Server thread/INFO]: Stopping the server
+[17:44:40] [Server thread/INFO]: Stopping server
+[17:44:40] [Server thread/INFO]: Saving players
+[17:44:40] [Server thread/INFO]: BrunusSmith lost connection: Server closed
+[17:44:40] [Server thread/INFO]: BrunusSmith left the game
+[17:44:40] [Server thread/INFO]: Saving worlds
+[17:44:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[BrunoAndCecilia]'/minecraft:overworld
+[17:44:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[BrunoAndCecilia]'/minecraft:the_nether
+[17:44:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[BrunoAndCecilia]'/minecraft:the_end
+[17:44:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (BrunoAndCecilia): All chunks are saved
+[17:44:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:44:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:44:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
