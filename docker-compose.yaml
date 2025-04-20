@@ -1,29 +1,23 @@
-name: MinecraftServer
-
 services:
-  server:
-    container_name: server
-    build:
-      context: ./server
-      dockerfile: Dockerfile
-    restart: unless-stopped
+  minecraft-server:
+    container_name: minecraft-server
+    build: .
     ports:
-      - 25565:25565
+      - "0.0.0.0:25565:25565"
     volumes:
-      - ./server/world:/minecraft/world
-      - ./server/mods:/minecraft/mods
-      - ./server/server.properties:/minecraft/server.properties
+      - ./server/server.properties:/server/server.properties
+      - ./server/mods:/server/mods
+      - ./server/world/BrunoAndCecilia:/server/BrunoAndCecilia
     environment:
-      JAVA_OPTS: "-Xmx4G -Xms1G -XX:SoftMaxHeapSize=3G -XX:+UnlockExperimentalVMOptions -XX:+UseZGC"
+      - EULA=true
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
     deploy:
       resources:
         limits:
-          cpus: '0.50'
-          memory: 8GB
+          cpus: '4'
+          memory: 4GB
         reservations:
-          cpus: '0.25'
-          memory: 5GB
-    network_mode: host
-
-volumes:
-  server:
+          cpus: '2'
+          memory: 2GB
